@@ -1,7 +1,7 @@
 {
-    "data": "/project/nakamura-lab09/Work/natsuno-t/additional_ex_ANLP2022/reinforce_data_20220208/bin/",
+    "data": your_data_path like 'data/bin',
     "arch": "transformer",
-    "finetune-from-model": "/project/nakamura-lab09/Work/natsuno-t/span_extraction/savedmodel_1110_persona.pt/checkpoint_best.pt",
+    "finetune-from-model": your_model_path,
     "save-dir": "checkpoints/savedmodel.pt",
     "source-lang": "src",
     "target-lang": "dst",
